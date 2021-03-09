@@ -1,3 +1,4 @@
-../vessel.dhall
+let mainVessel = ../vessel.dhall in
+mainVessel
   with
-    dependencies = [ "matchers" ]
+    dependencies = mainVessel.dependencies # [ "matchers" ]
