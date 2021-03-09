@@ -1,7 +1,10 @@
 # motoko-library-template
 
-A template for making a Motoko Library. After you've created a copy
-follow the Checklist section in the README.
+A template for making a Motoko Library.
+
+Make sure to set the "Include all branches" checkbox in the creation
+dialog. After you've created a copy follow the Checklist section in
+the README.
 
 ## Features
 
