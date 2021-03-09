@@ -23,6 +23,19 @@ the README.
 - Generate API documentation locally by running `make docs` and then
   open the resulting `docs/index.html` in your browser
 
+## How to publish
+
+- Create a git tag for the commit you'd like to be the published
+  version. For example:
+  ```bash
+  git tag v1.1.0
+  git push origin v1.1.0
+  ```
+- Follow the instructions at
+  [`vessel-package-set`](https://github.com/dfinity/vessel-package-set)
+  to make it easy for other to install your library
+
+
 ## Checklist
 
 ### Check the initial setup works
@@ -47,7 +60,7 @@ whenever you push a git tag, follow these steps. Otherwise delete
 - [ ] Change the Url in the `API Documentation` section in your project
 
 ### Finishing touches
-- [ ] Check out the How-to-develop and How-to-publish sections in the
+- [ ] Check out the "How to develop" and "How to publish" sections in the
       README and finally delete the Checklist section from the
       README
 
