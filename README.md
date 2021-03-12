@@ -40,6 +40,7 @@ the README.
 
 ### Check the initial setup works
 - [ ] Make sure you've installed [`vessel`](https://github.com/dfinity/vessel)
+- [ ] Make sure you've installed [`wasmtime`](https://wasmtime.dev/)
 - [ ] Make sure `make all` runs succesfully. If it doesn't please [open an issue](https://github.com/kritzcreek/motoko-library-template)
 
 ### Licensing
